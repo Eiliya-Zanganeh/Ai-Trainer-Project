@@ -18,3 +18,5 @@ Project features:
 
 * Mediapipe: for body processing and detection
 * OpenCV: for reading and processing video or camera
+
+![img](assets/img.png)
