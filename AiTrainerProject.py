@@ -43,17 +43,11 @@ while True:
         if round(angle) < 10 and not count[0]:
             count[0] = True
 
-
-
-
         cv2.circle(img, (x1, y1), 5, (255, 0, 0), cv2.FILLED)
         cv2.circle(img, (x2, y2), 5, (255, 0, 0), cv2.FILLED)
         cv2.circle(img, (x3, y3), 5, (255, 0, 0), cv2.FILLED)
         cv2.line(img, (x1, y1), (x2, y2), (255, 0, 0), 3)
         cv2.line(img, (x2, y2), (x3, y3), (255, 0, 0), 3)
-
-
-
 
     cv2.imshow('img', img)
     cv2.waitKey(20)
